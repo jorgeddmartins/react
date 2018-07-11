@@ -1,0 +1,442 @@
+/*@mixin column-medium($marg: $small-fix-03 + 1 + 0.93, $posi: relative) {
+    float: $fltleft;
+    background: $white;
+    border: $small-fix-01 solid $gray-smooth;
+    border-bottom: $small-fix-01 solid $gray-darkwater;
+    @include border-radius($small-fix-03);
+    margin: $marg;
+    position: $posi;
+}*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.YourCarLow {
+    width: 100%;
+}
+
+.YourCarLow header {
+    width: 100%;
+    padding: 20px;
+    background: #003664;
+}
+
+.YourCarLow header .logoBox {
+    max-width: 270px;
+    float: left;
+}
+
+.YourCarLow header .logoBox img {
+    width: 100%;
+}
+
+.YourCarLow header .headerTxt {
+    float: right;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    top: 5px;
+}
+
+.YourCarLow .heroStage {
+    width: 100%;
+    float: left;
+    position: relative;
+    border-bottom: 17px solid #fff;
+    overflow: hidden;
+}
+
+.YourCarLow .heroStage img {
+    width: 100%;
+}
+
+.YourCarLow .heroStage .heroFloor {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.YourCarLow .heroStage .heroFloor .QualifiedBlk {
+    width: 54%;
+    height: 400px;
+    background: #fff;
+    position: absolute;
+    left: -30px;
+    bottom: -216px;
+    transform: rotate(-13deg);
+    -webkit-transform: rotate(-13deg);
+    -moz-transform: rotate(-13deg);
+    -o-transform: rotate(-13deg);
+    padding: 20px;
+}
+
+.YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo {
+    float: right;
+    position: relative;
+    height: 70%;
+}
+
+.YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercent {
+    color: #ffad00;
+    float: right;
+    font-size: 100px;
+    font-weight: bolder;
+    position: relative;
+    top: -32px;
+    letter-spacing: -8px;
+    margin-right: 15px;
+}
+
+.YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercent hr {
+    margin: 0;
+    border-top: 6px solid #003664;
+    position: relative;
+    top: -27px;
+}
+
+.YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercentTxt {
+    float: right;
+    text-transform: uppercase;
+    font-size: 23px;
+    color: #003664;
+    font-weight: bold;
+    width: 27%;
+    line-height: 29px;
+}
+
+.YourCarLow .heroStage .heroFloor .downQualifiedBlk {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: -51px;
+}
+
+.YourCarLow .heroStage .heroFloor .downQualifiedBlk .getApp {
+    float: right;
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #003664;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+.YourCarLow .heroStage .heroFloor .downQualifiedBlk .getAppNum {
+    float: right;
+    font-size: 65px;
+    color: #ffad00;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: -5px;
+    top: -17px;
+    margin-left: 4px;
+}
+
+.YourCarLow .heroStage .heroFloor .downQualifiedBlk .getAppSecTxt {
+    float: right;
+    font-size: 30px;
+    color: #ffad00;
+    font-weight: bold;
+    position: relative;
+    letter-spacing: -1px;
+    margin-left: 8px;
+    text-transform: uppercase;
+    top: -3px;
+}
+
+.YourCarLow .heroStage .heroFloor .downQualifiedBlk .getAppSecTxt hr {
+    margin: 0;
+    border-top: 6px solid #003664;
+    position: relative;
+    top: -5px;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage {
+    margin-top: 20px;
+    width: 43%;
+    max-width: 485px;
+    position: relative;
+    float: right;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formStageHeader {
+    width: 92%;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formStageHeader .topShape {
+    width: 100%;
+    position: relative;
+    float: left;
+    background: #ffad00;
+    height: 104px;
+    text-align: center;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formStageHeader .downShape {
+    width: 0;
+    height: 0;
+    border-top: 223px solid transparent;
+    border-right: 60px solid #ffad00;
+    border-bottom: 223px solid transparent;
+    float: left;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    position: relative;
+    top: -193px;
+    left: 191px;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat h2 {
+    text-transform: uppercase;
+    color: #003662;
+    font-weight: bold;
+    font-size: 37px;
+    margin: 0;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat span {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 25px;
+    width: 53%;
+    display: table;
+    margin: auto;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat strong {
+    color: #223f5d;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody {
+    width: 100%;
+    padding: 40px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #003664;
+    position: absolute;
+    top: 94px;
+    left: 0;
+    /* Start Form */
+    /* End Form */
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .steps {
+    display: none;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm h2 {
+    margin: 0;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .heading {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 12px;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm input[type="text"].form-control {
+    position: relative;
+    margin: auto;
+    height: 57px;
+    border: 0;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm input[type="text"].form-control:focus {
+    outline: 0;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .form-control-feedback {
+    top: 59px;
+    right: 10px;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul {
+    list-style: none;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul li {
+    width: 48%;
+    text-align: center;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul li:nth-child(1) {
+    float: left;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul li:nth-child(2),
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul li:nth-child(3) {
+    float: right;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul li a {
+    background: #ffad00;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    float: left;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .safeImg {
+    position: absolute;
+    width: 43%;
+    left: 0;
+    bottom: -48px;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody .audiImg {
+    position: absolute;
+    width: 65.5%;
+    right: 0;
+    bottom: -75px;
+}
+
+.YourCarLow .heroStage .heroFloor .formStage .formShapeBody p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.YourCarLow .testemStage {
+    width: 100%;
+    float: left;
+    background: #e6e6e6;
+    padding: 0;
+    padding-top: 50px;
+    padding-bottom: 140px;
+}
+
+.YourCarLow .testemStage .testemBlk {
+    width: 33.3%;
+    position: relative;
+    float: left;
+}
+
+.YourCarLow .testemStage .testemBlk .testmenBullet {
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    display: table;
+}
+
+.YourCarLow .testemStage .testemBlk .testmenBullet i {
+    position: absolute;
+    left: 0;
+    top: 55px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #033663;
+}
+
+.YourCarLow .testemStage .testemBlk .testmenBulletTitle {
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    color: #033663;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.YourCarLow .testemStage .testemBlk .testmenBulletTxt {
+    width: 90%;
+    text-align: center;
+    color: #033663;
+    font-size: 15px;
+    margin: auto;
+    display: table;
+}
+
+.YourCarLow .testemStage .testemBlk .testemenSign {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 11px;
+    color: #033663;
+    margin-top: 22px;
+}
+
+.YourCarLow .footerStage {
+    width: 100%;
+    float: left;
+    background: #003664;
+    border-top: 7px solid #ffad00;
+    padding: 50px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+.YourCarLow .footerStage .container {
+    margin-top: 57px;
+}
+
+.YourCarLow .footerStage .footTopBullet {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #003664;
+    border: 7px solid #ffad00;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: -87px;
+}
+
+
+/*# sourceMappingURL=carlowConfig.css.map */

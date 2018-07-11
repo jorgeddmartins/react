@@ -1,0 +1,269 @@
+/*@mixin column-medium($marg: $small-fix-03 + 1 + 0.93, $posi: relative) {
+    float: $fltleft;
+    background: $white;
+    border: $small-fix-01 solid $gray-smooth;
+    border-bottom: $small-fix-01 solid $gray-darkwater;
+    @include border-radius($small-fix-03);
+    margin: $marg;
+    position: $posi;
+}*/
+
+
+/*************************************** TABLETS ************************************/
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader {
+        display: none;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat h2 {
+        font-size: 33px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat span {
+        width: 100%;
+        font-size: 22px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .topShape:before {
+        content: '';
+        border-top: 158px solid transparent;
+        border-right: 40px solid #ffad00;
+        border-bottom: 158px solid transparent;
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        top: -2px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -34px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .downShape {
+        display: none;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody {
+        position: relative;
+        float: left;
+        top: 0;
+        margin-top: -12px;
+        padding: 15px;
+        padding-top: 12px;
+        padding-bottom: 62px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody p {
+        font-size: 11px;
+        margin-top: 13px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .heading {
+        font-size: 19px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm input[type="text"].form-control {
+        height: 44px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul li a {
+        font-size: 23px;
+        padding: 8px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .form-control-feedback {
+        top: 46px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk {
+        height: 360px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo {
+        width: 100%;
+        height: auto;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercent {
+        font-size: 77px;
+        top: -22px;
+        margin-right: 16px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercent hr {
+        top: -19px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercentTxt {
+        width: 31%;
+        font-size: 22px;
+        line-height: 23px;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk {
+        top: 0;
+        margin-top: -38px;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk .getApp {
+        font-size: 17px;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk .getAppNum {
+        font-size: 46px;
+        margin-top: -11px;
+        top: 0;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk .getAppSecTxt {
+        font-size: 23px;
+        margin-top: -1px;
+        top: 0;
+    }
+}
+
+
+/*************************************** SMARTPHONES ************************************/
+
+@media (min-width: 220px) and (max-width: 1023px) {
+    .YourCarLow header {
+        padding: 12px;
+    }
+    .YourCarLow header .headerTxt {
+        display: none;
+    }
+    .YourCarLow header .logoBox {
+        max-width: 130px;
+        float: none;
+        margin: auto;
+    }
+    .YourCarLow .heroStage {
+        overflow: initial;
+        border: 0;
+    }
+    .YourCarLow .heroStage .heroFloor {
+        position: relative;
+        float: left;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage {
+        width: 100%;
+        margin-bottom: 64px;
+        float: none;
+        margin: 15px auto;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat h2 {
+        font-size: 33px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .formStageHeaderPlat span {
+        width: 100%;
+        font-size: 22px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .topShape:before {
+        content: '';
+        border-top: 158px solid transparent;
+        border-right: 40px solid #ffad00;
+        border-bottom: 158px solid transparent;
+        width: 0;
+        height: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        top: -2px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -34px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formStageHeader .downShape {
+        display: none;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody {
+        position: relative;
+        float: left;
+        top: 0;
+        margin-top: -12px;
+        padding: 15px;
+        padding-top: 70px;
+        padding-bottom: 52px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody p {
+        font-size: 11px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .heading {
+        font-size: 19px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm input[type="text"].form-control {
+        height: 44px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .actions ul li a {
+        font-size: 23px;
+        padding: 8px;
+    }
+    .YourCarLow .heroStage .heroFloor .formStage .formShapeBody .YourCarLowStepForm .form-control-feedback {
+        top: 46px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk {
+        position: relative;
+        float: left;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        transform: rotate(0);
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        padding-bottom: 5px;
+        margin-top: 65px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo {
+        width: 100%;
+        height: auto;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercent {
+        font-size: 74px;
+        top: -22px;
+        margin-right: 16px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercent hr {
+        top: -19px;
+    }
+    .YourCarLow .heroStage .heroFloor .QualifiedBlk .QualifiedBlkInfo .QualifiedPercentTxt {
+        width: 50%;
+        font-size: 22px;
+        line-height: 23px;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk {
+        top: 0;
+        margin-top: -38px;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk .getApp {
+        font-size: 17px;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk .getAppNum {
+        font-size: 46px;
+        margin-top: -11px;
+        top: 0;
+    }
+    .YourCarLow .heroStage .heroFloor .downQualifiedBlk .getAppSecTxt {
+        font-size: 23px;
+        margin-top: -1px;
+        top: 0;
+    }
+    .YourCarLow .heroStage .heroImg {
+        display: none;
+    }
+    .YourCarLow .testemStage {
+        padding-top: 20px;
+        padding-bottom: 63px;
+    }
+    .YourCarLow .testemStage .testemBlk {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .YourCarLow .testemStage .testemBlk .testmenBullet {
+        width: 130px;
+        height: 130px;
+    }
+    .YourCarLow .testemStage .testemBlk .testmenBullet i {
+        top: 42px;
+    }
+    .YourCarLow .footerStage .footTopBullet {
+        width: 130px;
+        height: 130px;
+        top: -65px;
+    }
+}
+
+
+/*# sourceMappingURL=carlowQueries.css.map */

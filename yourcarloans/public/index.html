@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <title>Your CarLow</title>
+    <!--
+    manifest.json provides metadata used when your web app is added to the
+    homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+  -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="assets/linearicons/icons/icons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="css/formValidation.min.css" />
+    <link rel="stylesheet" href="http://192.168.101.230:8080/projects/httdocs/newsystem/assets/css/yourcarlow/carlowConfig.css">
+    <link rel="stylesheet" href="http://192.168.101.230:8080/projects/httdocs/newsystem/assets/css/yourcarlow/carlowQueries.css">
+    <link rel="stylesheet" href="css/animations.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+    <!-- Libraries to Include -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/formValidation.min.js"></script>
+    <script src="js/formvalidation-framework-bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/agency.js"></script>
+    <script src="js/jquery.steps.min.js"></script>
+    <script src="js/stepPostScript.js"></script>
+
+    <script type="text/javascript">
+    function renderJS() {
+        var element = document.createElement("script");
+        element.src = "js/carlow.js";
+        document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+        window.addEventListener("load", renderJS, false);
+    else if (window.attachEvent)
+        window.attachEvent("onload", renderJS);
+    else window.onload = renderJS;
+    </script>
+    <script>
+    function pxlclear() {
+        $(document).ready(function() {
+            var urlHost = "http://" + window.location.hostname;
+            $("#pxlfire").html('');
+        });
+    }
+    </script>
+
+   
+    <script src="js/animationScroll.js"></script>
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+</body>
+
+</html>
