@@ -10,10 +10,6 @@ import { ColumnMenu, ColumnMenuCheckboxFilter } from './columnMenu.jsx';
 
 import allleads from './allleads.json';
 
-
-
-//import Iconpicker from '../iconpicker/iconpicker';
-
 import Header from '../header/header';
 
 import Nav from '../header/nav';
@@ -55,7 +51,7 @@ class Leads extends React.Component {
 
     componentDidMount() {
 
-        $.fn.kendoDrops = () => {
+        const kendoDrops = () => {
 
             let itemVal = 0;
 
@@ -108,28 +104,9 @@ class Leads extends React.Component {
                 theadval++;
             });
 
-
             $('#id_6 .k-input').detach();
-            
-
         }
-        $(document).kendoDrops();
-
-
-        // let button = document.getElementById("clickPlus"),
-        //     buttonminus = document.getElementById("clickMinus"),
-        //     increse = document.getElementById("Increse"),
-        //     count = 0;
-
-        // button.onclick = function() {
-        //     count += 1;
-        //     increse.innerHTML = count;
-        // };
-
-        // buttonminus.onclick = function() {
-        //     count -= 1;
-        //     increse.innerHTML = count;
-        // };
+        kendoDrops();
     }
 
     render() {

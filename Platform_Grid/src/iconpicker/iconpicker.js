@@ -7,11 +7,11 @@ class Iconpicker extends Component {
 
 	componentDidMount() {
 
-		$.fn.iconpickerPro = () => {
+		const iconpickerPro = () => {
 
 			$.getScript('assets/js/icomodal/iconmodal.js');
 		}
-		$(document).iconpickerPro();
+		iconpickerPro();
 	}
 
 	render() {
