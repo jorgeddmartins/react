@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "img": "assets/img/teamImg.jpg",
+        "title": "Team A",
+        "desc": "Looking for Front End Developer to join the Team",
+        "url": "/createteam"
+    },
+    {
+        "id": 2,
+        "img": "assets/img/teamImg.jpg",
+        "title": "Team B",
+        "desc": "Looking for Front End Developer to join the Team",
+        "url": "/createteam"
+    },
+    {
+        "id": 3,
+        "img": "assets/img/teamImg.jpg",
+        "title": "Team C",
+        "desc": "Looking for Front End Developer to join the Team",
+        "url": "/createteam"
+    },
+    {
+        "id": 4,
+        "img": "assets/img/teamImg.jpg",
+        "title": "Team D",
+        "desc": "Looking for Front End Developer to join the Team",
+        "url": "/createteam"
+    }
+]

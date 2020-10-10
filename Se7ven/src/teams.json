@@ -1,0 +1,10 @@
+{
+	"teams": [
+
+		{
+			"img": "assets/img/teamImg.jpg",
+			"name": "Team A",
+			"desc": "Looking for Front End Developer to join the Team"
+		}
+	]
+}
