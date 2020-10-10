@@ -1,0 +1,467 @@
+.row-content-lg .column-grid-login .logo_box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 6%;
+    background: url(/assets/img/login/QinexLogo.svg) no-repeat;
+    background-size: 150px;
+    height: 50.02px;
+    background-position: 50%;
+}
+
+@media (min-width: 220px) and (max-width: 1023px) {
+    .row-content-lg .column-grid-login .logo_box {
+        background: url(/assets/img/login/QinexLogo.svg) no-repeat;
+        background-size: 139px;
+        background-position: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* Start Pop Up Product Type */
+
+.grid-body-6 {
+    font-size: 25px;
+    position: absolute;
+    right: 26.5%;
+    top: 55px;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.pro-imagesettings {
+    position: absolute;
+    width: 500px;
+    padding-top: 60px;
+    background: #fff;
+    top: 20px;
+    left: 10%;
+    
+    border-bottom: 1px solid #ddd;
+    z-index: 2000;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    /*display: none;*/
+}
+
+.pro-imagesettings .close-floor {
+    width: 100%;
+    background: #2796c6;
+    border-bottom: 1px solid #2796c6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+
+.pro-imagesettings .close-floor .fa,
+.pro-imagesettings .close-floor .glyphicon,
+.pro-imagesettings .close-floor .fd,
+.pro-imagesettings .close-floor .lnr {
+    font-size: 23px;
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.pro-imagesettings .close-floor .lnr {
+    float: left;
+    cursor: default;
+    padding-left: 20px;
+    color: #088267;
+}
+
+.pro-imagesettings .close-floor h5 {
+    margin: 0;
+    float: right;
+    font-size: 13px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 6px;
+    padding-left: 10px;
+    color: #fff;
+    padding-right: 40px;
+    text-transform: uppercase;
+}
+
+.pro-imagesettings .close-floor .closesettings {
+    position: relative;
+}
+
+.pro-imagesettings .close-floor .closesettings .coseTooltip {
+    width: 70px;
+    padding: 3px;
+    position: absolute;
+    top: -30px;
+    left: -26px;
+    color: #fff;
+    background: #2796c6;
+    text-align: center;
+    font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 1px solid #fff;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    display: none;
+}
+
+.pro-imagesettings .close-floor .closesettings .coseTooltip:after {
+    position: absolute;
+    content: "";
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    top: 100%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 7px solid #fff;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.pro-imagesettings .content-floor .cont-label {
+    width: 100%;
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.pro-imagesettings .content-floor .library-floor {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    height: 45px;
+    background: #fafafa;
+}
+
+
+.pro-imagesettings .content-floor .library-floor span {
+    position: relative;
+    float: left;
+    padding: 6px;
+    font-weight: bold;
+    color: #777;
+}
+
+.pro-imagesettings .content-floor .icons-floor {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.pro-imagesettings .content-floor .icons-floor .iconsFloor-in {
+    width: 100%;
+    position: relative;
+    padding: 3px;
+    padding-bottom: 0;
+    height: 194px;
+}
+
+.pro-imagesettings .content-floor .rotate90:after {
+    position: absolute;
+    content: "";
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    z-index: 10;
+    top: 50.5%;
+    right: 10px;
+    border-bottom: 5px solid #333;
+    transform: rotate(0);
+}
+
+.pro-imagesettings .content-floor em {
+    display: inline-block;
+    font-size: 12px;
+    color: #ccc;
+    font-weight: bold;
+    margin-top: 6px;
+    padding-left: 5px;
+}
+
+.pro-imagesettings .content-floor .labraryDrop {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    padding: 5px;
+    border: 1px solid #eee;
+    background: #fff;
+    z-index: 10;
+}
+
+.pro-imagesettings .content-floor .labraryDrop li span {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    padding-left: 13px;
+    font-size: 12px;
+    color: #000;
+    cursor: default;
+}
+
+.pro-imagesettings .content-floor .labraryDrop li span:hover {
+    background: #f9f9f9;
+}
+
+.pro-imagesettings .content-floor .position-floor {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.pro-imagesettings .content-floor .save-blk {
+    background: #f9f9f9;
+    width: 100%;
+    float: left;
+    padding: 13px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.pro-imagesettings .content-floor .focusColor {
+    background: #2796c6;
+    color: #fff;
+}
+
+.pro-imagesettings .ico-stage {
+    width: 60px;
+    height: 45px;
+    background: #fafafa;
+    float: left;
+    margin: 2px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.pro-imagesettings .ico-stage .fa,
+.pro-imagesettings .ico-stage .fab,
+.pro-imagesettings .ico-stage .fal,
+.pro-imagesettings .ico-stage .far,
+.pro-imagesettings .ico-stage .fas,
+.pro-imagesettings .ico-stage .glyphicon,
+.pro-imagesettings .ico-stage .lnr,
+.pro-imagesettings .ico-stage .icon, 
+.pro-imagesettings .ico-stage .fad {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.pro-imagesettings .ico-stage .fa em,
+.pro-imagesettings .ico-stage .fab em,
+.pro-imagesettings .ico-stage .fal em,
+.pro-imagesettings .ico-stage .far em,
+.pro-imagesettings .ico-stage .fas em,
+.pro-imagesettings .ico-stage .glyphicon em,
+.pro-imagesettings .ico-stage .lnr em,
+.pro-imagesettings .ico-stage .icon em, 
+.pro-imagesettings .ico-stage .fad em {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.pro-imagesettings .ico-stage .fd {
+    position: relative;
+    top: -7px;
+    font-size: 27px;
+}
+
+.pro-imagesettings .ico-stage .fd em {
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.pro-imagesettings .ico-stage:hover {
+    background: #2796c6;
+    color: #fff;
+}
+
+.pro-imagesettings .iconSearch-floor,
+.pro-imagesettings .iconActive-floor {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 4px;
+    position: relative;
+}
+
+.pro-imagesettings .iconSearch-floor .auto-search {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    height: 45px;
+    border: 0;
+    background: #fafafa;
+    margin: 0;
+}
+
+.pro-imagesettings .iconSearch-floor .auto-search:focus {
+    outline: 0;
+}
+
+.pro-imagesettings .iconSearch-floor .fa,
+.pro-imagesettings .iconSearch-floor .glyphicon,
+.pro-imagesettings .iconSearch-floor .fd {
+    position: absolute;
+    top: 12px;
+    right: 33px;
+    font-size: 19px;
+    color: #ddd;
+}
+
+.pro-imagesettings .iconSearch-floor {
+    width: 83.6%;
+    padding-left: 0;
+}
+
+.pro-imagesettings .iconActive-floor {
+    margin-bottom: 2px;
+    width: 81px;
+    padding-right: 7px;
+}
+
+.pro-imagesettings .iconActive-floor .ico-stage {
+    margin: 0;
+}
+
+.pro-imagesettings .iconActive-floor .ico-stage:hover {
+    background: #fff;
+    color: #000;
+}
+
+.pro-imagesettings .saveChanges,
+.pro-imagesettings .saveChangesMenu {
+    background: #2796c6;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.pro-imagesettings .saveChanges:focus,
+.pro-imagesettings .saveChangesMenu:focus {
+    outline: 0;
+}
+
+.pro-imagesettings .saveNotallowed {
+    pointer-events: none;
+    background: rgba(10, 154, 122, 0.3);
+}
+
+.pro-imagesettings .openDropM {
+    display: block !important;
+}
+
+.pro-imagesettings .mCS-minimal.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.3);
+    filter: "alpha(opacity=20)";
+    -ms-filter: "alpha(opacity=20)";
+}
+
+.pro-imagesettings .icoM,
+.pro-imagesettings .icoFA {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: #f8f8f8;
+    position: relative;
+    cursor: pointer !important;
+}
+
+.pro-imagesettings .icoM:after,
+.pro-imagesettings .icoFA:after {
+    position: absolute;
+    content: "";
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 44%;
+    right: 69%;
+    border-bottom: 5px solid #333;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.pro-imagesettings .sub-icomenu,
+.pro-imagesettings .sub-famenu {
+    display: none;
+}
+
+.pro-imagesettings .bootstrapFontFl,
+.pro-imagesettings .foundationFontFl,
+.pro-imagesettings .icomoonFontFl,
+.pro-imagesettings .icomoonpackFl,
+.pro-imagesettings .fontawesomeFl, 
+.pro-imagesettings .fontawesomeFl5 {
+    display: none;
+}
+
+
+.pro-imagesettings .icoMRotate:after {
+    content: "";
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.mainspan {
+    display: block;
+    text-align: center;
+    color: #999;
+    font-size: 29px;
+    /* background: #fff; */
+    padding: 5px;
+    cursor: pointer;
+}
+
+.fa {
+    margin-right: 0 !important;
+}
+
+
+/* End Pop Up Product Type */

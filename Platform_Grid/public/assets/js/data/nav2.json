@@ -1,0 +1,26 @@
+[
+	{
+		"id": "id-15",
+		"class": "li-Lead Reporting",
+		"name": "Lead Reporting",
+		"subname": "Capture & Distribution Reports",
+		"icon": "fa fa-bar-chart-o",
+		"openid": 15,
+		"submenu": [
+			{
+				"id": "id-16",
+				"class": "li-Capture Total",
+				"url": "/leads",
+				"name": "Capture Total",
+				"icon": "fa fa-area-chart"
+			},
+			{
+				"id": "id-17",
+				"class": "li-Distribution Totals",
+				"url": "/leads",
+				"name": "Distribution Totals",
+				"icon": "fa fa-exchange"
+			}
+		]
+	}
+]

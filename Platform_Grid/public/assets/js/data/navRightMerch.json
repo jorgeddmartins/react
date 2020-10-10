@@ -1,0 +1,392 @@
+[
+	{
+		"id": 100,
+		"name": "AVA",
+		"merch": [
+			{
+				"name": "FuneralPlan"
+			}
+		]
+	},
+	{
+		"id": 101,
+		"name": "AVAPQ",
+		"merch": [
+			{
+				"name": "FuneralPlan"
+			}
+		]
+	},
+	{
+		"id": 102,
+		"name": "CHO",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	},
+	{
+		"id": 103,
+		"name": "CHOPQ",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	},
+	{
+		"id": 104,
+		"name": "COM",
+		"merch": [
+			{
+				"name": "StairLifts"
+			}
+		]
+	},
+	{
+		"id": 104,
+		"name": "COO",
+		"merch": [
+			{
+				"name": "Mortgages"
+			}
+		]
+	},
+	{
+		"id": 105,
+		"name": "FIR",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	},
+	{
+		"id": 106,
+		"name": "FIRPQ",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	},
+	{
+		"id": 107,
+		"name": "FRI",
+		"merch": [
+			{
+				"name": "Mortgages"
+			}
+		]
+	},
+	{
+		"id": 108,
+		"name": "FRIPQ",
+		"merch": [
+			{
+				"name": "Mortgages"
+			}
+		]
+	},
+	{
+		"id": 109,
+		"name": "GOS",
+		"merch": [
+			{
+				"name": "FuneralInsurance"
+			},
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 110,
+		"name": "GOSPQ",
+		"merch": [
+			{
+				"name": "FuneralPlan"
+			}
+		]
+	},
+	{
+		"id": 111,
+		"name": "HEA",
+		"merch": [
+			{
+				"name": "HearingAids"
+			}
+		]
+	},
+	{
+		"id": 112,
+		"name": "INS",
+		"merch": [
+			{
+				"name": "Mortgages"
+			}
+		]
+	},
+	{
+		"id": 113,
+		"name": "KSD",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	},
+	{
+		"id": 114,
+		"name": "KSW",
+		"merch": [
+			{
+				"name": "Life"
+			},
+			{
+				"name": "StairLiftsDE"
+			}
+		]
+	},
+	{
+		"id": 115,
+		"name": "MAN",
+		"merch": [
+			{
+				"name": "BusinessPMI"
+			}
+		]
+	},
+	{
+		"id": 116,
+		"name": "MAT",
+		"merch": [
+			{
+				"name": "StairLifts"
+			},
+			{
+				"name": "StairLiftsDE"
+			}
+		]
+	},
+	{
+		"id": 117,
+		"name": "MOH",
+		"merch": [
+			{
+				"name": "Mortgages"
+			}
+		]
+	},
+	{
+		"id": 118,
+		"name": "MUL",
+		"merch": [
+			{
+				"name": "StairLifts"
+			}
+		]
+	},
+	{
+		"id": 119,
+		"name": "NFS",
+		"merch": [
+			{
+				"name": "Life"
+			},
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 120,
+		"name": "NFSPQ",
+		"merch": [
+			{
+				"name": "Life"
+			},
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 121,
+		"name": "GLD",
+		"merch": [
+			{
+				"name": "FuneralInsurance"
+			},
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 122,
+		"name": "GLDPQ",
+		"merch": [
+			{
+				"name": "FuneralInsurance"
+			},
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 123,
+		"name": "RES",
+		"merch": [
+			{
+				"name": "FuneralPlan"
+			}
+		]
+	},
+	{
+		"id": 124,
+		"name": "SFS",
+		"merch": [
+			{
+				"name": "FuneralInsurance"
+			},
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 125,
+		"name": "SFSPQ",
+		"merch": [
+			{
+				"name": "FuneralPlan"
+			},
+			{
+				"name": "FuneralInsurance"
+			},
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 126,
+		"name": "SC",
+		"merch": [
+			{
+				"name": "Life"
+			},
+			{
+				"name": "LifeDMS"
+			}
+		]
+	},
+	{
+		"id": 127,
+		"name": "SCCA",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	},
+	{
+		"id": 128,
+		"name": "SCPQ",
+		"merch": [
+			{
+				"name": "Life"
+			},
+			{
+				"name": "LifeDMS"
+			}
+		]
+	},
+	{
+		"id": 129,
+		"name": "SOL",
+		"merch": [
+			{
+				"name": "HomeForCash"
+			}
+		]
+	},
+	{
+		"id": 130,
+		"name": "TER",
+		"merch": [
+			{
+				"name": "Equity"
+			}
+		]
+	},
+	{
+		"id": 131,
+		"name": "TLG",
+		"merch": [
+			{
+				"name": "Windows"
+			}
+		]
+	},
+	{
+		"id": 132,
+		"name": "TUTPQ",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	},
+	{
+		"id": 133,
+		"name": "KVE",
+		"merch": [
+			{
+				"name": "FiftyLife"
+			}
+		]
+	},
+	{
+		"id": 134,
+		"name": "VER",
+		"merch": [
+			{
+				"name": "HomeAlarms"
+			}
+		]
+	},
+	{
+		"id": 135,
+		"name": "WEBU",
+		"merch": [
+			{
+				"name": "HomeForCash"
+			}
+		]
+	},
+	{
+		"id": 136,
+		"name": "WIN",
+		"merch": [
+			{
+				"name": "Life"
+			},
+			{
+				"name": "Mortgages"
+			}
+		]
+	},
+	{
+		"id": 137,
+		"name": "WINPQ",
+		"merch": [
+			{
+				"name": "Life"
+			}
+		]
+	}
+]

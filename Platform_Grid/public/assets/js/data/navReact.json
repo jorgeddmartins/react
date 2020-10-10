@@ -1,0 +1,45 @@
+
+[
+	{
+		"id": 15,
+		"class": "li-Lead Reporting",
+		"name": "Lead Reporting",
+		"subname": "Capture & Distribution Reports",
+		"icon": "fa fa-bar-chart-o"
+	},
+	{
+		"id": 20,
+		"class": "li-Quality Reporting",
+		"name": "Quality Reporting",
+		"subname": "Asses lead quality performance",
+		"icon": "fa fa-check-square"
+	},
+	{
+		"id": 24,
+		"class": "li-Financial Reporting",
+		"name": "Financial Reporting",
+		"subname": "Profitability Reporting",
+		"icon": "fa fa-gbp"
+	},
+	{
+		"id": 125,
+		"class": "li-Accounts Reporting",
+		"name": "Accounts Reporting",
+		"subname": "Financial Reports for Accounts",
+		"icon": "fa fa-calculator"
+	},
+	{
+		"id": 35,
+		"class": "li-Tele Sales Reporting",
+		"name": "Tele Sales Reporting",
+		"subname": "Call outcomes",
+		"icon": "fa fa-tty"
+	},
+	{
+		"id": 134,
+		"class": "li-Product Types Reporting",
+		"name": "Product Types Reporting",
+		"subname": "Product type specific reporting",
+		"icon": "fa fa-product-hunt"
+	}
+]

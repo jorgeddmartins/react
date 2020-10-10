@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.OverLayBtn {
+    width: max-content; /* 135px */
+    height: 34px;
+    margin: 0;
+    float: left;
+    position: relative;
+    background: url(assets/img/btn-bg-grey2.png);
+    background-size: 100%;
+    align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
