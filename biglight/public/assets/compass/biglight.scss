@@ -1,0 +1,312 @@
+
+// vasriables
+$maincolor: #E3C987;
+$black: #000000;
+$null: 0;
+
+$width: 100%;
+$height: 100%;
+
+// Mixins
+@mixin border-radius($radius) {
+    -webkit-border-radius: #{$radius};
+    -moz-border-radius: #{$radius};
+    -ms-border-radius: #{$radius};
+    border-radius: #{$radius};
+}
+
+@mixin box-shadow($boxvalue) {
+    -webkit-box-shadow: #{$boxvalue};
+    -moz-box-shadow: #{$boxvalue};
+    box-shadow: #{$boxvalue};
+}
+
+@mixin transition($value) {
+    transition: ($value);
+    -webkit-transition: ($value);
+    -moz-transition: ($value);
+    -o-transition: ($value);
+}
+
+@mixin Imbox {
+    .ImBox {
+        width: $width;
+        float: left;
+        position: relative;
+        margin-bottom: 20px; 
+    } 
+}
+
+// Animations
+@mixin animation($value) {
+    -webkit-animation: #{$value};
+    -moz-animation: #{$value};
+    -o-animation: #{$value};
+    animation: #{$value};
+}
+
+@mixin animationdelay($value) {
+    -webkit-animation-delay: #{$value};
+    -moz-animation-delay: #{$value};
+    animation-delay: #{$value};
+}
+
+@mixin keyframes($animation) {
+
+    // KeyFrames For Chrome and Safari
+    @-webkit-keyframes #{$animation} {
+
+        // Content Code Goes here
+        @content;
+    }
+
+    // KeyFrames For FireFox
+    @-moz-keyframes #{$animation} {
+
+        // Content Code Goes Here
+        @content;
+    }
+
+    // KeyFarmes For I.E.
+    @-ms-keyframes #{$animation} {
+
+        // Content Code Goes Here
+        @content;
+    }
+
+    // All
+    @keyframes #{$animation} {
+
+        // Content Code Goes Here
+        @content;
+    }
+}
+
+
+* {
+    margin: $null;
+    padding: $null;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+nav,
+section,
+header,
+footer,
+aside,
+details,
+summary,
+hgroup,
+main {
+    display: block;
+}
+
+ul { list-style: none; }
+
+h1 {
+    font-size: 30px;
+    letter-spacing: -3px;
+    color: $maincolor;
+}
+
+nav {
+    background: $black;
+    height: 45px;
+    width: $width;
+
+    .l_Url {
+        font-size: 12px;
+        color: $maincolor;
+        font-weight: bold;
+        margin: 15px;
+        float: left;
+        text-decoration: none;
+    }
+}
+
+
+section {
+    width: $width;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    p {
+        padding: 30px;
+        font-weight: bold;
+        font-size: 15px;
+        padding-top: 20px;
+        letter-spacing: -0.5px;
+    }
+
+    .mobile, 
+    #mobileport, 
+    #mobileabout {
+        display: none;
+        width: $width;
+    }
+
+    #mobileport, 
+    #desktopabout, 
+    #mobileabout {
+        img {
+            width: $width;
+        }
+    }
+
+    .desktop {
+        width: $width;
+    }
+
+    .desktop, 
+    .mobile {
+        position: relative;
+        left: -100%;
+        opacity: 0;
+        @include animation(indexImg 1.5s 1 forwards);
+        @include animationdelay(2.7s);
+    }
+
+    @include keyframes(indexImg)  {
+
+        0% { opacity: 0; left: -100%; }
+        50% { opacity: 0.4; }
+        100% { opacity: 1; left: 0; }
+    }
+
+    #desktoport, 
+    #desktopabout {
+        width: $width;
+        img {
+            width: $width;
+        }
+    }
+
+    #desktopabout, 
+    #mobileabout {
+        .boxRght {
+            width: $width;
+            height: 70px;
+            padding: 20px;
+            background: $maincolor;
+            float: left;
+            position: relative;
+            margin-top: -4px;
+        }
+    }
+
+    #mobileport {
+        .boxRght {
+            width: 100%;
+            padding: 30px;
+            position: relative;
+            float: left;
+            background: #eee;
+        }
+    }
+
+    #desktoport {
+        text-align: left;
+        img {
+            width: 80%;
+        }
+
+        .boxRght {
+            width: 20%;
+            height: 99.4%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #eee;
+        }
+    } 
+
+    .btn_Sec {
+        width: $width;
+        float: left;
+        height: 56px;
+        padding: 10px;
+        margin-top: 30px;
+        .btnAct {
+            position: relative;
+            top: 0;
+            height: 100%;
+            padding: 11px;
+            padding-left: 25px;
+            padding-right: 25px;
+            background: $maincolor;
+            color: $black;
+            @include border-radius(50px);
+            display: inline-block;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 12px;
+            margin: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+            letter-spacing: -0.5px;
+            @include box-shadow(0 0 5px 0 rgba(0, 0, 0, 0.35));
+            @include transition(0.3s);
+            &:hover {
+                background: $black;
+                color: $maincolor;
+                @include box-shadow(0 0 7px 0 rgba(227, 201, 135, 0.35));
+                top: -3px;
+                @include border-radius(4px);
+            }
+        }
+    }
+
+    @include Imbox();
+}
+
+footer {
+    width: $width;
+    height: 45px;
+    padding: 15px;
+    float: left;
+    .f_info {
+        color: $black;
+        letter-spacing: -0.5px;
+    }
+}
+
+
+@media screen and (orientation: landscape) {}
+
+@media screen and (orientation: portrait) {
+
+    section {
+        .mobile, 
+        #mobileport, 
+        #mobileabout {
+            display: block;
+        }
+
+        .desktop, 
+        #desktoport, 
+        #desktopabout {
+            display: none;
+        }
+
+        .btn_Sec {
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1920px) and (max-height: 1440px) {}
+
+@media all and (min-width: 1001px) {}
