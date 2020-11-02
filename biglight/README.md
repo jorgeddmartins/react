@@ -58,11 +58,11 @@ Why did I do it with 3 spreadsheets?\
 # Answer to your questions about GatsbyJS.
 1- Can you explain what GatsbyJS is and what the benefits of using it are?\
 2- Can you explain how you would get the data from WordPress to GatsbyJS?\
-3- Can you describe why GatsbyJS makes a site secure?\
+3- Can you describe why GatsbyJS makes a site secure?
 
 Answer for these 3 questions:\
 I never worked with GatsbyJS before, I don't know about it, but the fact I don't know about it, doesn't mean I can't peak up and learn.
-I just need peak it up and learn, is quick.\
+I just need peak it up and learn, is quick.
 
 4- What is a PRPL?\
 Is a Google website structure that makes possible to build websites.
