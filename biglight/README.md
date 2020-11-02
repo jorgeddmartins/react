@@ -41,13 +41,13 @@ I also, could create a javascript Injection to create the templates for each pag
 #Spreadsheets Injection
 
 Home Page:\
-https://docs.google.com/spreadsheets/d/1nlhwlvPC65Kqj3NvRSwyWQSGaSLkVp8Iui4DkKz9oG4/edit#gid=88432593 \
+https://docs.google.com/spreadsheets/d/1nlhwlvPC65Kqj3NvRSwyWQSGaSLkVp8Iui4DkKz9oG4/edit#gid=88432593 
 
 Portfolio Page:\
-https://docs.google.com/spreadsheets/d/1a65zsccPP7XYnTCHVJK56xusYj3eMxTsqxMyvjA1Z9c/edit#gid=88432593 \
+https://docs.google.com/spreadsheets/d/1a65zsccPP7XYnTCHVJK56xusYj3eMxTsqxMyvjA1Z9c/edit#gid=88432593 
 
 About Page:\
-https://docs.google.com/spreadsheets/d/1-fLhPrk8BkprwcOu7ksv2c_ASR1iyW4tHba2itrMSow/edit#gid=88432593 \
+https://docs.google.com/spreadsheets/d/1-fLhPrk8BkprwcOu7ksv2c_ASR1iyW4tHba2itrMSow/edit#gid=88432593 
 
 Why did I do it with 3 spreadsheets?\
 1- I wanted to see the behaviour of each page and also I tried to create a HTML template inside to fetch data from the spreadsheet.\
