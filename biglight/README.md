@@ -25,7 +25,7 @@ You need to run sass with an npm command to run sass that will generate a css fi
 2- Install NodeJs == https://nodejs.org/ \
 3- Throught your terminal navigate to the App folder and do 'npm install or npm i'\
 4- Run the App with 'npm start'\
-5- The will start running on 'http://localhost:4200' - The main door for React
+5- The will start running on 'http://localhost:3000' - The main door for React
 
 # What's Inside?
 The Web site has 3 pages, HomePage, PortfolioPage and AboutPage.
