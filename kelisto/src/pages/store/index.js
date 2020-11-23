@@ -14,7 +14,7 @@ const Store = () => {
                 <ProductsGrid/>
             </div>
         </Layout>
-     );
+    );
 }
  
 export default Store;
